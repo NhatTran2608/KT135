@@ -46,7 +46,7 @@
         </div>
 
         <form action="" class="search-bar-container">
-            <input type="search" id="search-bar" placeholder="search here...">
+            <input type="search" id="search-bar" placeholder="Nơi bạn muốn đến...">
             <label for="search-bar" class="fas fa-search"></label>
         </form>
 
@@ -61,14 +61,14 @@
         <i class="fas fa-times" id="form-close"></i>
 
         <form action="">
-            <h3>login</h3>
-            <input type="email" class="box" placeholder="enter your email">
-            <input type="password" class="box" placeholder="enter your password">
-            <input type="submit" value="login now" class="btn">
+            <h3>Đăng nhập</h3>
+            <input type="email" class="box" placeholder="Email">
+            <input type="password" class="box" placeholder="Mật khẩu">
+            <input type="submit" value="Đăng nhập" class="btn">
             <input type="checkbox" id="remember">
-            <label for="remember">remember me</label>
-            <p>forget password? <a href="#">click here</a></p>
-            <p>don't have and account? <a href="#">register now</a></p>
+            <label for="remember">Ghi nhớ tôi</label>
+            <p>Quên mật khẩu? <a href="#">Nhấp vào đây</a></p>
+            <p>Bạn chưa có tài khoản? <a href="#">Đăng ký ngay</a></p>
         </form>
 
     </div>
@@ -84,15 +84,15 @@
         </div>
 
         <div class="controls">
-            <span class="vid-btn active" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn active" data-src="images/An Giang - Tri Tôn.mp4"></span>
             <!-- <span class="vid-btn" data-src="images/vid-2.mp4"></span> -->
-            <!-- <span class="vid-btn" data-src="images/vid-AG.mp4"></span> -->
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/Kiên Giang - U Minh Thượng.mp4"></span>
             <span class="vid-btn" data-src="images/vid-4.mp4"></span>
-            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
         </div>
 
         <div class="video-container">
-            <video src="images/vid-3.mp4" id="video-slider" loop autoplay muted></video>
+            <video src="images/An Giang - Tri Tôn.mp4" id="video-slider" loop autoplay muted></video>
         </div>
 
     </section>
@@ -167,107 +167,236 @@
             <span>R</span>
         </h1>
 
+        <div class="filter-form">
+            <ul class="filter">
+                <li>
+                    <input type="search" placeholder="Tìm tour">
+                </li>
+                <li>
+                    <label for="ngayden">Ngày Đến</label>
+                    <input id="ngayden" type="date">
+                </li>
+                <li>
+                    <label for="ngayve">Ngày Về</label>
+                    <input id="ngayve" type="date">
+                </li>
+                <li>
+                    <label for="dichvu"> Gói Dịch Vụ </label>
+                    <select name="" id="dichvu">
+                        <option value="">--Chọn Dịch Vụ--</option>
+                        <option value="">Tiết Kiệm</option>
+                        <option value="">Tầm Trung</option>
+                        <option value=""></option>
+                    </select>
+                </li>
+                <div class="button-filter">
+                    <li>
+                        <button>Tìm kiếm</button>
+                    </li>
+                </div>
+                
+            </ul>
+    
+        </div>
+
+
         <div class="box-container">
 
             <div class="box">
                 <img src="./images/Cà Mau - Mũi Cà Mau.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i> Cà Mau </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
-                    <div class="stars">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cần Thơ - Sóc Trăng - Bạc Liêu - Cà Mau (3N2Đ) </h3>
+                    <p>
+                        Thời gian: 3 ngày 2 đêm <br>
+                        Phương tiện: Xe du lịch <br>
+                        Khách sạn: 3 sao, 4 sao <br>
+                        Khởi hành: Hằng ngày <br>
+                    </p>
+                    <!-- <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">Đặt ngay</a>
+                    </div> -->
+                    <div class="price"> Giá từ: 1.850.000VNĐ</div>
+                    <a href="./tour.html" class="btn">Xem thêm</a>
                 </div>
             </div>
 
             <div class="box">
                 <img src="images/p-2.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
-                    <div class="stars">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cần Thơ - Sóc Trăng - Bạc Liêu - Cà Mau (2N1Đ) </h3>
+                    <p>
+                        Thời gian: 2 ngày 1 đêm <br>
+                        Phương tiện: Xe du lịch <br>
+                        Khách sạn: 3 sao, 4 sao <br>
+                        Khởi hành: Hằng ngày<br>
+                    </p>
+                    <!-- <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">Đặt ngay</a>
+                    </div> -->
+                    <div class="price"> Giá từ: 1.550.000VNĐ</div>
+                    <a href="#" class="btn">Xem thêm</a>
                 </div>
             </div>
 
             <div class="box">
                 <img src="images/p-3.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
-                    <div class="stars">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cần Thơ - Sóc Trăng - Bạc Liêu (3N2Đ)  </h3>
+                    <p>
+                        Thời gian: 3 ngày 2 đêm <br>
+                        Phương tiện: Xe du lịch <br>
+                        Khách sạn: 3 sao, 4 sao <br>
+                        Khởi hành: Hằng ngày<br>
+                    </p>
+                    <!-- <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">Đặt ngay</a>
+                    </div> -->
+                    <div class="price"> Giá từ: 1.650.000VNĐ</div>
+                    <a href="#" class="btn">Xem thêm</a>
                 </div>
             </div>
 
             <div class="box">
                 <img src="images/p-4.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
-                    <div class="stars">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cần Thơ - Sóc Trăng - Bạc Liêu (2N1Đ) </h3>
+                    <p>
+                        Thời gian: 2 ngày 1 đêm <br>
+                        Phương tiện: Xe du lịch <br>
+                        Khách sạn: 3 sao, 4 sao <br>
+                        Khởi hành: Hằng ngày<br>
+                    </p>
+                    <!-- <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">Đặt ngay</a>
+                    </div> -->
+                    <div class="price"> Giá từ: 1.350.000VNĐ</div>
+                    <a href="#" class="btn">Xem thêm</a>
                 </div>
             </div>
 
             <div class="box">
                 <img src="images/p-5.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
-                    <div class="stars">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cần Thơ - Sóc Trăng (2N1Đ) </h3><br>
+                    <p>
+                        Thời gian: 2 ngày 1 đêm <br>
+                        Phương tiện: Xe du lịch <br>
+                        Khách sạn: 3 sao, 4 sao <br>
+                        Khởi hành: Hằng ngày<br>
+                    </p>
+                    <!-- <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">Đặt ngay</a>
+                    </div> -->
+                    <div class="price"> Giá từ: 1.250.000VNĐ</div>
+                    <a href="#" class="btn">Xem thêm</a>
                 </div>
             </div>
 
             <div class="box">
                 <img src="images/p-6.jpg" alt="">
                 <div class="content">
-                    <h3> <i class="fas fa-map-marker-alt"></i> eypt </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
-                    <div class="stars">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cần Thơ - Bạc Liêu (2N1Đ) </h3><br>
+                    <p>
+                        Thời gian: 2 ngày 1 đêm <br>
+                        Phương tiện: Xe du lịch <br>
+                        Khách sạn: 3 sao, 4 sao <br>
+                        Khởi hành: Hằng ngày<br>
+                    </p>
+                    <!-- <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
-                    </div>
-                    <div class="price"> $90.00 <span>$120.00</span> </div>
-                    <a href="#" class="btn">Đặt ngay</a>
+                    </div> -->
+                    <div class="price"> Giá từ: 1.250.000VNĐ</div>
+                    <a href="#" class="btn">Xem thêm</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cần Thơ - An Giang (2N1Đ) </h3>
+                    <p>
+                        Thời gian: 2 ngày 1 đêm <br>
+                        Phương tiện: Xe du lịch <br>
+                        Khách sạn: 3 sao, 4 sao <br>
+                        Khởi hành: Hằng ngày<br>
+                    </p>
+                    <!-- <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div> -->
+                    <div class="price"> Giá từ: 1.450.000VNĐ</div>
+                    <a href="#" class="btn">Xem thêm</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cần Thơ - Kiên Giang (2N1Đ) </h3>
+                    <p>
+                        Thời gian: 2 ngày 1 đêm <br>
+                        Phương tiện: Xe du lịch <br>
+                        Khách sạn: 3 sao, 4 sao <br>
+                        Khởi hành: Hằng ngày<br>
+                    </p>
+                    <!-- <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div> -->
+                    <div class="price"> Giá từ: 1.250.000VNĐ</div>
+                    <a href="#" class="btn">Xem thêm</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cần Thơ (2N1Đ) </h3>
+                    <p>
+                        Thời gian: 2 ngày 1 đêm <br>
+                        Phương tiện: Xe du lịch <br>
+                        Khách sạn: 3 sao, 4 sao <br>
+                        Khởi hành: Hằng ngày<br>
+                    </p>
+                    <!-- <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div> -->
+                    <div class="price"> Giá từ: 1.150.000VNĐ</div>
+                    <a href="#" class="btn">Xem thêm</a>
                 </div>
             </div>
 
@@ -352,6 +481,14 @@
         <div class="box-container">
 
             <div class="box">
+                <img src="./images/An Giang - Hồ Tà Pạ.jpg" alt="">
+                <div class="content">
+                    <h3>AN GIANG</h3>
+                    <p>Hồ Tà Pạ được mệnh danh là Tuyệt tình cốc Miền Tây.</p>
+                    <a href="./An Giang.html" class="btn">Xem thêm</a>
+                </div>
+            </div>
+            <div class="box">
                 <img src="./images/Cà Mau - Mũi Cà Mau.jpg" alt="CÀ MAU">
                 <div class="content">
                     <h3>CÀ MAU</h3>
@@ -368,10 +505,10 @@
                 </div>
             </div>
             <div class="box">
-                <img src="./images/Kiên Giang - Đảo Phú Quốc.jpg" alt="Kiên Giang">
+                <img src="./images/Cà Mau- Rừng U Minh Thượng.jpg" alt="Kiên Giang">
                 <div class="content">
                     <h3>KIÊN GIANG</h3>
-                    <p>Phú Quốc - Đảo Ngọc thiên đường nghỉ dưỡng sau ngày làm việc mệt mỏi</p>
+                    <p>Vuờn quốc gia U Minh Thượng lá phổi xanh của Đồng bằng sông Cửu Long</p>
                     <a href="#" class="btn">Xem thêm</a>
                 </div>
             </div>
@@ -384,21 +521,14 @@
                 </div>
             </div>
             <div class="box">
-                <img src="./images/Bạc Liêu- Cánh Đồng Muối.jpg" alt="Bạc Liêu">
+                <img src="./images/Bạc Liêu - Cánh Đồng Muối.jpg" alt="Bạc Liêu">
                 <div class="content">
                     <h3>BẠC LIÊU</h3>
                     <p>Cánh đồng muối vẻ đẹp lao động của người dân trên cánh đồng muối mênh mông.</p>
                     <a href="#" class="btn">Xem thêm</a>
                 </div>
             </div>
-            <div class="box">
-                <img src="./images/An Giang - Hồ Tà Pạ.jpg" alt="">
-                <div class="content">
-                    <h3>AN GIANG</h3>
-                    <p>Hồ Tà Pạ được mệnh danh là Tuyệt tình cốc Miền Tây.</p>
-                    <a href="#" class="btn">Xem thêm</a>
-                </div>
-            </div>
+            
             <!-- <div class="box">
                 <img src="images/g-7.jpg" alt="">
                 <div class="content">
@@ -541,15 +671,19 @@
             </div>
 
             <form action="">
+                <h3 class="contact_title">
+                    Hãy để lại thông tin chúng tôi sẽ liên hệ với bạn
+                </h3>
                 <div class="inputBox">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
+                    <input type="text" placeholder="Họ và tên">
+                    <input type="email" placeholder="Email">
                 </div>
                 <div class="inputBox">
-                    <input type="number" placeholder="number">
-                    <input type="text" placeholder="subject">
+                    <input type="number" placeholder="Số điện thoại">
+                    <input type="text" placeholder="Tour bạn quan tâm">
+
                 </div>
-                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="Nội dung..." name="" id="" cols="30" rows="10"></textarea>
                 <input type="submit" class="btn" value="Gửi">
             </form>
 
@@ -595,7 +729,7 @@
         <div>
             <img class="contact-img" src="./images/contact.jpg" alt="">
         </div>
-        
+
 
     </section>
 
@@ -616,8 +750,8 @@
             </div>
             <div class="box">
                 <h3>GIỚI THIỆU</h3>
-                <a href="about.html">Thư ngõ</a>
-                <a href="#">Tầm nhìn - Sứ mệnh</a>
+                <a href="./about.html">Thư ngõ</a>
+                <a href="./mission_vision.html">Tầm nhìn - Sứ mệnh</a>
                 <a href="#">Thông tin công ty</a>
                 <a href="#">Tin tuyển dụng</a>
                 <a href="">Chi nhánh</a>
@@ -658,20 +792,6 @@
     <footer>
         <a href="#"><img class="top" src="./images/top.png" alt="" width="80" height="90"></a>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
