@@ -283,7 +283,7 @@ header .search-bar-container label:hover{
   position: absolute;
   top: 0; left: 0;
   z-index: -1;
-  height: 100%;
+  height: 95%;
   width:100%;
   object-fit: cover;
   text-align: center;
@@ -763,6 +763,38 @@ select{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+
+.table-AG{
+  border-radius: 5px;
+  height: 200px;
+  text-align: inherit; 
+  border: 1px #ccc solid;
+  padding: 10px 40px;
+  box-shadow: #a7a6a6;
+
+}
+
+.hotline-AG{
+  
+  font-size: medium;
+  font-weight: 500;
+  color: #666;
+}
+
+.table-AG span{
+  margin-top: 5px;
+  text-transform: none;
+}
+.table-AG i{
+  text-align: start;
+}
+
+.p-AG{
+  font-size: large;
+}
+
+
 
 
 
