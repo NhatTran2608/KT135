@@ -97,7 +97,10 @@ header .navbar a{
   text-decoration: none;
   color:#fff;
   font-size: 2rem;
-  margin:0 .8rem;
+  margin:0 10px;
+  font-size: large;
+  font-weight: 900;
+  
 }
 
 header .navbar a:hover{
@@ -438,7 +441,7 @@ header .search-bar-container label:hover{
 }
 
 .services .box-container .box p{
-  font-size: 1.5rem;
+  font-size: 2rem;
   color:#666;
   padding:1rem 0;
 }
@@ -805,6 +808,17 @@ select{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* media queries  */
 
 @media (max-width:1200px){
@@ -852,6 +866,8 @@ select{
     padding:1.5rem;
     margin:1.5rem 0;    
     background:#222;
+
+
   }
 
 }
