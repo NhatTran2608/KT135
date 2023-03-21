@@ -601,6 +601,7 @@ header .search-bar-container label:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
+  color: white;
 }
 
 .footer .box-container .box {
@@ -651,7 +652,12 @@ header .search-bar-container label:hover {
 
 .swiper-wrapper {
   margin-left: 100px;
+  
 
+}
+.swiper-slide {
+    flex-shrink: 1;
+    margin: 5px;
 }
 
 .top {
